@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Test_DailyUserControlsNet</RootNamespace>	  
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>VBWPFUserControl_x32.ico</ApplicationIcon>
+    <UseWindowsForms>False</UseWindowsForms>
+    <Copyright>Copyright ©  2023 - 2025  operatortwo</Copyright>
+    <Description>Testing and developing the library controls</Description>
+
+	  <MyType>Windows</MyType>
+	  <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\Cancel_x32.png" />
+    <None Remove="Resources\Images\Checked_x32.png" />
+    <None Remove="Resources\Images\go_down_x22.png" />
+    <None Remove="Resources\Images\go_next x22.png" />
+    <None Remove="Resources\Images\go_up_x22.png" />
+    <None Remove="Resources\Images\Information_x16.png" />
+    <None Remove="Resources\Images\MessageWindowSmall.png" />
+    <None Remove="Resources\Images\Play_x22.png" />
+    <None Remove="Resources\Images\process_stop x22.png" />
+    <None Remove="Resources\Images\Unchecked_x32.png" />
+    <None Remove="Resources\Images\VU_20_Segemnts.png" />
+    <None Remove="Resources\Images\WPFCustomControl_48x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="VBWPFUserControl_x32.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DailyUserControlsNet\DailyUserControlsNet.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\Cancel_x32.png" />
+    <Resource Include="Resources\Images\Checked_x32.png" />
+    <Resource Include="Resources\Images\go_down_x22.png" />
+    <Resource Include="Resources\Images\go_next x22.png" />
+    <Resource Include="Resources\Images\go_up_x22.png" />
+    <Resource Include="Resources\Images\Information_x16.png" />
+    <Resource Include="Resources\Images\MessageWindowSmall.png" />
+    <Resource Include="Resources\Images\Play_x22.png" />
+    <Resource Include="Resources\Images\process_stop x22.png" />
+    <Resource Include="Resources\Images\Unchecked_x32.png" />
+    <Resource Include="Resources\Images\VU_20_Segemnts.png" />
+    <Resource Include="Resources\Images\WPFCustomControl_48x.png" />
+  </ItemGroup>
+
+</Project>

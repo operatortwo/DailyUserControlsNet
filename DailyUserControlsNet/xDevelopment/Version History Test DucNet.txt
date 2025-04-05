@@ -1,0 +1,6 @@
+﻿Version History of Test DailyUserControlsNet
+============================================
+
+Date			Version		Changes
+------------------------------------------------
+2025 04 05		1.0.0.0		initial release, based on Test DailyUserControls V 1.0.2.0 (.Net Framework) 
