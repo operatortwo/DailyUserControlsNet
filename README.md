@@ -1,6 +1,6 @@
 # DailyUserControlsNet
 
-This Project for **.NET** started as a portation from *DailyUserControls V 1.0.8.0 for .NET Framework*.
+This Project for **.NET** started as a portation from *DailyUserControls V 1.0.8.3 for .NET Framework*.
 Depending on requirements, the two projects may be developed differently in the future.  
 This side work contains some usercontrols that can be used in other .NET projects.  
 The goal is to collect some common controls in a library to be able to to maintain them in one place and use them in multiple applications.  
