@@ -26,13 +26,6 @@ Can be used to increase, decrease or enter a numeric value.
 The value can have decimal places, can be negative and can be restricted to step values.
 
 ##
-#### Selector Button
-![SelectorButton](https://user-images.githubusercontent.com/88147904/236564028-7c245dec-0e85-4ff0-a13d-e3afea0b53d5.PNG)  
-Is a combination of a button and an up/down control. The control contains an integer value which can be used as an index to a list of items.
-The user can press the button to open a dialog to choose an item from a list, or can scroll through the list with the up/down buttons and the mouse wheel.  
-The control itself only manages button click, increasing and decreasing the value. Additional code is required for handling the list and displaying the dialog
-
-##
 #### Small Slider
 ![SmallSlider](https://user-images.githubusercontent.com/88147904/236564707-593c6bf1-cb88-48b1-bbfd-1c15aa76675a.PNG)  
 Allows increasing and decreasing a numeric value. Responds to mouse wheel and needs only little space.
@@ -42,6 +35,14 @@ Allows increasing and decreasing a numeric value. Responds to mouse wheel and ne
 ![ToggleButton](https://user-images.githubusercontent.com/88147904/236564734-5005cba6-acdb-4b5d-9930-59057779eb31.PNG)  
 Based on the original ToggleButton, it has additional properties for text, background and image, each for checked and unchecked state.
 This allows the control to be used flexibly. For example, an on-off push button switch can be shown that is backlit when ON.
+
+##
+#### Selector Button
+![SelectorButton](https://user-images.githubusercontent.com/88147904/236564028-7c245dec-0e85-4ff0-a13d-e3afea0b53d5.PNG)  
+Is a combination of a button and an up/down control. The control contains an integer value which can be used as an index to a list of items.
+The user can press the button to open a dialog to choose an item from a list, or can scroll through the list with the up/down buttons and the mouse wheel.  
+The control itself only manages button click, increasing and decreasing the value. Additional code is required for handling the list and displaying the dialog
+
 
 ##
 #### VU Bar
