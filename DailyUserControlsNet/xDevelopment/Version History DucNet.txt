@@ -3,4 +3,5 @@
 
 Date			Version		Changes
 ------------------------------------------------
-2025 04 05		1.0.0.0		initial release, based on DailyUserControls V 1.0.8.2 (.Net Framework) 
+2025 04 07		1.0.1.0		MouseWheelHandled property for SmallSlider, NumericUpDown, SelectorButton, Knob
+2025 04 05		1.0.1.0		initial release, based on DailyUserControls V 1.0.8.2 (.Net Framework) 

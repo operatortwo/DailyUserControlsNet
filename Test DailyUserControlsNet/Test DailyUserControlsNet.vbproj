@@ -12,6 +12,8 @@
 
 	  <MyType>Windows</MyType>
 	  <UseWindowsForms>True</UseWindowsForms>
+	  <AssemblyVersion>1.0.1.0</AssemblyVersion>
+	  <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
