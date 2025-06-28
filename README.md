@@ -57,7 +57,7 @@ Visualizes progress or angle.
 
 ##
 #### Progress Ring
-
+![ProgressRing](https://github.com/user-attachments/assets/61ce4d9e-19c0-4199-9086-ef92420a07a2)
 Visualizes progress in ring- / donut style.
 
 ##
@@ -150,7 +150,7 @@ Private Sub Slider1_ValueChanged(sender As Object, e As RoutedPropertyChangedEve
 
 End Sub
 ```
-> Error BC30002 Type ‘T’ is not defined.
+> Error BC30002 Type â€˜Tâ€™ is not defined.
 
 This can be corrected by completing the handler to:
 ```
