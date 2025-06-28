@@ -13,7 +13,6 @@
   of flow content into a UI.
     </TextBlock>
 
-
     <!--#region Image Button -->
     <TextBlock x:Key="dsc_ImageButton" TextWrapping="Wrap">
         <Bold>Image Button</Bold> allows placing text and an image on a button at the same time.
@@ -155,6 +154,27 @@
     </TextBlock>
 
     <!--#endregion-->
+
+    <!--#region Progress Ring -->
+    <TextBlock x:Key="dsc_ProgressRing" TextWrapping="Wrap">
+ <Bold>Progress Ring</Bold> visualizes progress from start value to end value.
+     The input range goes from Minimum to Maximum and is mapped to the ring from 0 to 360 degrees.
+    </TextBlock>
+
+    <TextBlock x:Key="dsc2_ProgressRing" TextWrapping="Wrap">
+ Circular visualization of progress. The progress value as angle or percent can be read from the control
+    </TextBlock>
+
+    <TextBlock x:Key="dscKb_ProgressRing" TextWrapping="Wrap">
+ no keyboard input
+    </TextBlock>
+
+    <TextBlock x:Key="dscMou_ProgressRing" TextWrapping="Wrap">
+ no mouse input
+    </TextBlock>
+
+    <!--#endregion-->
+
 
     <!--#region Knob -->
     <TextBlock x:Key="dsc_Knob" TextWrapping="Wrap">

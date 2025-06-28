@@ -43,7 +43,6 @@ Is a combination of a button and an up/down control. The control contains an int
 The user can press the button to open a dialog to choose an item from a list, or can scroll through the list with the up/down buttons and the mouse wheel.  
 The control itself only manages button click, increasing and decreasing the value. Additional code is required for handling the list and displaying the dialog
 
-
 ##
 #### VU Bar
 ![VU_Bar](https://user-images.githubusercontent.com/88147904/236564761-2143aa9c-e7e7-46b4-96c7-acfc371fe6e4.PNG)  
@@ -51,11 +50,15 @@ Is a very simple indicator showing activity on an audio track.
 Some additional code for timed value decrease is necessary.  
 Bar can be SolidColorBrush, LinearGradientBrush or ImageBrush.
 
-
 ##
 #### Progress Circle
 ![ProgressCircle](https://user-images.githubusercontent.com/88147904/236564902-81b50848-d7fb-4400-aa28-65f055ec450d.PNG)  
 Visualizes progress or angle.
+
+##
+#### Progress Ring
+
+Visualizes progress in ring- / donut style.
 
 ##
 #### Knob
@@ -64,7 +67,7 @@ Is a value control that simulates a potentiometer.
 
 ##
 #### DataGridTextColumnX
-A CustomControl that adds TextAlignment and Color Properties to a DataGridTextColumn
+A CustomControl that adds TextAlignment and Color Properties to a DataGridTextColumn.
 
 ##
 #### ComboBox

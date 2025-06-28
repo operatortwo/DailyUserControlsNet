@@ -3,5 +3,6 @@
 
 Date			Version		Changes
 ------------------------------------------------
+2025 06 28		1.0.2.0		added ProgressRing
 2025 04 07		1.0.1.0		MouseWheelHandled-property example for SmallSlider and NumericUpDown
 2025 04 05		1.0.0.0		initial release, based on Test DailyUserControls V 1.0.2.0 (.Net Framework) 
