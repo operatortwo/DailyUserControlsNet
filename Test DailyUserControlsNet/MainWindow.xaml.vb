@@ -21,6 +21,11 @@ Class MainWindow
         cbflistE.ItemList = [Enum].GetValues(GetType(Months))
         cbflistVal.ItemList = ValueList
         cbflistRef.ItemList = ColorList
+        '--- for simple string-list: 
+        ' until V 1.0.2.1: need "DisplayMember = "Name"
+        ' V 1.0.2.2 and up: when DisplayMember is empty, DisplayMember is set automatically to "Name"
+        CbflistString.ItemList = StringList
+
     End Sub
 
 #Region "Info About"

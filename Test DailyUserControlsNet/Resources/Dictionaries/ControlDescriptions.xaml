@@ -232,7 +232,7 @@
 
     <TextBlock x:Key="dscKb_CbFilterList" TextWrapping="Wrap">
  Input: <LineBreak/> 
- Enum, Value List or List(Of T)
+ Enum, Value List, List(Of T), String List
     </TextBlock>
 
     <TextBlock x:Key="dscMou_CbFilterList" TextWrapping="Wrap">

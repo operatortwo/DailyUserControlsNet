@@ -42,6 +42,11 @@ Partial Public Class CheckboxFilterList
             Next
         Else
             ' IsClass
+            If tp.Name = "String" Then                  ' String Class
+                If control.DisplayMember = "" Then      ' if DisplayMember is not set
+                    control.DisplayMember = "Name"      ' set default for String 
+                End If
+            End If
             If control.DisplayMember <> "" Then
                 Dim dm = tp.GetProperty(control.DisplayMember)
                 If dm IsNot Nothing Then
