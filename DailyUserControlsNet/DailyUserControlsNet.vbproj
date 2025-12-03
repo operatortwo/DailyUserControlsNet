@@ -6,8 +6,8 @@
     <UseWPF>true</UseWPF>
     <Description>A small collection of WPF UserControls</Description>
     <Copyright>Copyright @  2023 - 2025  operatortwo</Copyright>
-    <AssemblyVersion>1.0.2.3</AssemblyVersion>
-    <FileVersion>1.0.2.3</FileVersion>
+    <AssemblyVersion>1.0.2.4</AssemblyVersion>
+    <FileVersion>1.0.2.4</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
