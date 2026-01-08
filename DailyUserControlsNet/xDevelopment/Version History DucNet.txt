@@ -3,6 +3,9 @@
 
 Date			Version		Changes
 ------------------------------------------------
+2026 01 08		1.0.2.7		improved SizeableExpander
+2026 01 05		1.0.2.6		SizeableExpander: fixed Header property
+				1.0.2.5		ImageButton: Viewbox for text replaced by Grid
 2025 12 03		1.0.2.4		added SizeableExpander
 2025 10 22					DataGridTextColumnX: default black Brush for IsSelected and IsFocused
 2025 10 22		1.0.2.3		DataGridTextColumnX: added Properties for SelectedBorderBrush and FocusedBorderBrush

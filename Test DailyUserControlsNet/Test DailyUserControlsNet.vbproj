@@ -7,13 +7,13 @@
     <UseWPF>true</UseWPF>
     <ApplicationIcon>VBWPFUserControl_x32.ico</ApplicationIcon>
     <UseWindowsForms>False</UseWindowsForms>
-    <Copyright>Copyright ©  2023 - 2025  operatortwo</Copyright>
+    <Copyright>Copyright ©  2023 - 2026  operatortwo</Copyright>
     <Description>Testing and developing the library controls</Description>
 
 	  <MyType>Windows</MyType>
 	  <UseWindowsForms>True</UseWindowsForms>
-	  <AssemblyVersion>1.0.2.3</AssemblyVersion>
-	  <FileVersion>1.0.2.3</FileVersion>
+	  <AssemblyVersion>1.0.2.7</AssemblyVersion>
+	  <FileVersion>1.0.2.7</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
