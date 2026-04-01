@@ -4,7 +4,7 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>DailyUserControlsNet</RootNamespace>
     <UseWPF>true</UseWPF>
-    <Description>A small collection of WPF UserControls</Description>
+    <Description>A small collection of WPF User- and Custom Controls</Description>
     <Copyright>Copyright @  2023 - 2026  operatortwo</Copyright>
     <AssemblyVersion>1.0.2.7</AssemblyVersion>
     <FileVersion>1.0.2.7</FileVersion>
