@@ -6,7 +6,7 @@ Depending on requirements, the two projects may be developed differently in the 
 **News**  
 Currently, I would like to reduce the workload a little and am therefore trying to combine the two separate projects for .NET and .NET Framework.  
 For this reason, the original "DailyUserControls" project was created from scratch as a new .NET project , which now targets .NET **and** .NET Framework.  
-Therefore, updates will likely only be made in DUC from now on, and this repository will be archived once the combined project has proven to be sufficiently reliable.  
+Therefore, updates will likely only be made in [DailyUserControls](https://github.com/operatortwo/DailyUserControls) from now on, and this repository will be archived once the combined project has proven to be sufficiently reliable.  
 This should also be a good solution for those who only need the .NET part, as TargetFrameworks is easy to edit.
 <br>
 ##
